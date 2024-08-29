@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App_BusMap</string>
+    <string name="entrar">Entrar</string>
+    <string name="textcadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="favoritos">Favoritos</string>
+</resources>

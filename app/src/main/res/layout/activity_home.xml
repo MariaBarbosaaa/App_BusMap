@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Histórico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fundo"
+        tools:context=".home">
+
+
+        <View
+            android:id="@+id/containerComponents4"
+            style="@style/ContainerComponents2"
+            android:layout_width="356dp"
+            android:layout_height="306dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="295dp"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appCompatButton"
+            style="@style/Button"
+            android:layout_width="128dp"
+            android:layout_height="64dp"
+            android:text="Histórico"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="212dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/edit_nome2"
+            style="@style/Edit_Text"
+            android:layout_width="328dp"
+            android:layout_height="60dp"
+            android:hint="Pesquisa"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="128dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#F8F6F6"
+            android:textColorHint="#ECE4E4"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="25dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A168     Ralip     Graziela"
+            android:textAllCaps="false"
+            android:textColor="#FDFBFB"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="318dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A268     Benfica  Vale do Sol"
+            android:textAllCaps="false"
+            android:textColor="#F3EEEE"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="379dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A165     Ralip     Tupanci"
+            android:textAllCaps="false"
+            android:textColor="#F4F2F2"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="447dp"
+            tools:ignore="MissingConstraints" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:id="@+id/ic_home3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/ic_user" />
+
+            <ImageView
+                android:id="@+id/ic_home"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_home" />
+
+            <ImageView
+                android:id="@+id/ic_home2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="181dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_heart" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

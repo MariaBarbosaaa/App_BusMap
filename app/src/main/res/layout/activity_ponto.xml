@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF809ABB">
+
+    <View
+        android:id="@+id/containerComponents3"
+        style="@style/ContainerComponents2"
+        android:layout_width="373dp"
+        android:layout_height="480dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BusMap"
+        android:textColor="#FAF5F5"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ponto Estrada dos Romeiros"
+        android:textColor="#101010"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1º parada:"
+        android:textColor="#FBF6F6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Praça das Bandeiras,"
+        android:textColor="#F8F4F4"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEP: 06513-220"
+        android:textColor="#F3F0F0"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2º parada:"
+        android:textColor="#FAF6F6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estrada dos Romeiros,"
+        android:textColor="#F6F6F6"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1036, CEP: 06513-200"
+        android:textColor="#FFFCFC"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="331dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
